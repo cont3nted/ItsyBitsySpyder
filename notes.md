@@ -273,7 +273,7 @@ After setting up, we can define the class to scrap the web certain sites.
 
 In order for scrapy to run, we need a `start_requests` method to define which site or sites we want to scrap and where to send the information after scraping. 
 
-       def starts_request(self):
+       def start_requests(self):
           urls = ['Website Link Here']
          
 We will create for loop, to take each url within the urls list to be scrap. (Note that the for loop is not needed if you only scrap 1 url)
@@ -302,7 +302,7 @@ And if we look at the whole spider class, what we see is that the start_request 
 
         name = 'ItsyBitstSpider'
 
-        def starts_request(self):
+        def start_requests(self):
           urls = ['Website Link Here']
           for url in urls
             yield scrapy.Request( url = url, callback = self.parse )
