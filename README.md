@@ -28,6 +28,8 @@ Scrapy version 2.0.0
 ## How to use it
 --------------------
 After cloning and pip installing the scrapy library,
-just run main.py and key in the URL you want to scrap
+
+just run `main.py` and key in the URL you want to scrap
+
 and the extracted data will be put into the extracted_data folder.
 
