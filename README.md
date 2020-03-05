@@ -11,6 +11,7 @@ Python
 
 Scrapy version 2.0.0
 
+ `git clone https://github.com/cont3nted/ItsyBitsySpyder.git`
  `pip install Scrapy`
 
-"# ItsyBitsySpyder" 
+
